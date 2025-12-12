@@ -73,16 +73,18 @@ Sistema para la gestión de tarjetas de crédito que incluye:
 ```bash
 # Clonar el repositorio
 git clone https://github.com/DavielSanchez/credit_card.git
-cd credit-card-system
+cd credit_card
 ```
 
 #### **2\. Instalar Dependencias**
 
 ```bash
 # Puedes instalar todo los paquetes
-install-all
+npm run install-all
 
 # O instala todo por separado
+
+npm install
 
 # Instalar dependencias del backend
 cd backend
@@ -100,7 +102,8 @@ npm install
 cd ../backend
 # Crear archivo.env con las credenciales
 PORT=5000
-SUPABASE_URL=https://kpbbjkyouenjwcwhgupr.supabase.co  SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtwYmJqa3lvdWVuandjd2hndXByIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzOTMzMjcsImV4cCI6MjA4MDk2OTMyN30.pnu8rnShUe2wpj_gwGx53lx1QK84ICZvheh8p59CGbw
+SUPABASE_URL=https://kpbbjkyouenjwcwhgupr.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtwYmJqa3lvdWVuandjd2hndXByIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzOTMzMjcsImV4cCI6MjA4MDk2OTMyN30.pnu8rnShUe2wpj_gwGx53lx1QK84ICZvheh8p59CGbw
 NODE_ENV=development
 ```
 #### **4\. Ejecutar el Sistema**
