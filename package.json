@@ -1,0 +1,16 @@
+{
+    "name": "credit-card-system",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "install-all": "npm install --prefix frontend && npm install --prefix backend",
+        "frontend": "npm start --prefix frontend",
+        "backend": "npm start --prefix backend",
+        "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+        "dev-frontend": "npm run frontend",
+        "dev-backend": "npm run backend"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.0"
+    }
+}
