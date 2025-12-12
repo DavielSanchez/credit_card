@@ -267,9 +267,4 @@ Una vez ejecutado, accede a:
 7.  **✅ Error Handling** - Manejo robusto de errores en frontend y backend
     
 
-**👨‍💻 Autor**
----------------
-
-**Nombre**: Daviel Sánchez**Fecha de Entrega**: Diciembre 2024**Repositorio**: \[GitHub Repository URL\]
-
 **⭐ ¡Gracias por revisar este proyecto!**
