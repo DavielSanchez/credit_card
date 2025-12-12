@@ -12,6 +12,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.87.1",
     "@tailwindcss/vite": "^4.1.17",
+    "credit-card-system": "file:..",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-toastify": "^11.0.5",

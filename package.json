@@ -4,13 +4,13 @@
     "private": true,
     "scripts": {
         "install-all": "npm install --prefix frontend && npm install --prefix backend",
-        "frontend": "npm start --prefix frontend",
-        "backend": "npm start --prefix backend",
+        "frontend": "npm run dev --prefix frontend",
+        "backend": "npm run dev --prefix backend",
         "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
         "dev-frontend": "npm run frontend",
         "dev-backend": "npm run backend"
     },
     "devDependencies": {
-        "concurrently": "^8.2.0"
+        "concurrently": "^8.2.2"
     }
 }
